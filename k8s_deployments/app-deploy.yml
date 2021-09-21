@@ -19,7 +19,7 @@ spec:
      spec:
        containers:
        - name: aks-helloworld
-         image: acrimages2.azurecr.io/java-app:latest
+         image: acrimages2.azurecr.io/spring-app:latest
          imagePullPolicy: Always
          ports:
          - containerPort: 8082
