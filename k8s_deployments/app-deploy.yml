@@ -24,4 +24,4 @@ spec:
          ports:
          - containerPort: 8082
        imagePullSecrets:
-          - name: secret-deploy
+       - name: secret-basic-auth
