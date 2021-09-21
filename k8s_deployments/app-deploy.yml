@@ -19,7 +19,7 @@ spec:
      spec:
        containers:
        - name: aks-helloworld
-         image: prathibhapadma/new-demo-app1:latest
+         image: acrimages2.azurecr.io/java-app:latest
 
          ports:
          - containerPort: 8082
